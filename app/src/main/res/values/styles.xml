@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BottomNavigationViewItemActivityIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/white</item>
+    </style>
+
+    <style name="TopRoundedCardView" parent="@style/Widget.MaterialComponents.CardView">
+        <item name="strokeWidth">0dp</item>
+        <item name="cardBackgroundColor">@color/white</item>
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlayCustom</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlayCustom">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">30dp</item>
+        <item name="cornerSizeTopRight">30dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+    </style>
+
+    <style name="FullScreenDialog" parent="Theme.Modulo3ProjetoiContatos">
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+
+    <style name="TextInputStyle" parent="TextAppearance.AppCompat">
+        <item name="boxStrokeColor">@color/primaryColor</item>
+        <item name="hintTextColor">@color/primaryColor</item>
+    </style>
+
+    <style name="DropdownStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu">
+        <item name="boxStrokeColor">@color/primaryColor</item>
+        <item name="hintTextColor">@color/primaryColor</item>
+    </style>
+
+</resources>

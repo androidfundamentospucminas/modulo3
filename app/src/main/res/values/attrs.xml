@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ActionButton">
+        <attr name="buttonTitle" format="string"/>
+        <attr name="buttonIcon" format="reference"/>
+    </declare-styleable>
+    <declare-styleable name="InfoContainer">
+        <attr name="infoValue" format="string"/>
+        <attr name="infoTitle" format="string"/>
+        <attr name="infoIcon" format="reference"/>
+    </declare-styleable>
+</resources>

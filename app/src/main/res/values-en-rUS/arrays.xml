@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="relationship">
+        <item>Dad/Mon</item>
+        <item>Brother/Sister</item>
+        <item>Partner</item>
+        <item>Distant</item>
+        <item>Friend</item>
+        <item>Professional</item>
+        <item>Service</item>
+        <item>Comercial</item>
+        <item>Family</item>
+    </string-array>
+</resources>

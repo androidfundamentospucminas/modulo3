@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primaryColor">#2196F3</color>
+    <color name="selected_dot">#fff</color>
+    <color name="default_dot">#57A8E9</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="buttonActionColor">#085490</color>
+    <color name="actionStroke">#BAD9F3</color>
+    <color name="actionBackground">#F8FCFF</color>
+    <color name="gray">#6D6D6D</color>
+    <color name="light_black">#272727</color>
+</resources>

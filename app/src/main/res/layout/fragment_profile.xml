@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".mainscreen.ProfileFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/primaryColor"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="25dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/editButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/editar"
+                    android:gravity="end"
+                    android:textSize="18sp"
+                    android:layout_weight="1"
+                    android:textColor="@color/white"/>
+
+            </LinearLayout>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                app:cardCornerRadius="100dp">
+
+                <ImageView
+                    android:id="@+id/contactImage"
+                    android:scaleType="centerCrop"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_launcher_background"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/contactName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nome do Contato Completo"
+                android:textColor="@color/white"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/TopRoundedCardView">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:orientation="vertical">
+
+                <com.walker.modulo3projetoicontatos.InfoContainer
+                    android:id="@+id/infoPhone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:infoTitle="@string/telefone"
+                    app:infoValue="99999999"
+                    app:infoIcon="@drawable/ic_call"/>
+
+                <com.walker.modulo3projetoicontatos.InfoContainer
+                    android:id="@+id/infoMail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:infoTitle="@string/mail"
+                    app:infoValue="username@mail.com"
+                    app:infoIcon="@drawable/ic_mail"/>
+
+                <com.walker.modulo3projetoicontatos.InfoContainer
+                    android:id="@+id/infoInstagram"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:infoTitle="@string/instagram"
+                    app:infoValue="username"
+                    app:infoIcon="@drawable/ic_camera"/>
+
+                <com.walker.modulo3projetoicontatos.InfoContainer
+                    android:id="@+id/infoFacebook"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:infoTitle="@string/instagram"
+                    app:infoValue="username"
+                    app:infoIcon="@drawable/ic_facebook"/>
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+</ScrollView>

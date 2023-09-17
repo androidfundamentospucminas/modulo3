@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">iContacts</string>
+    <string name="welcome1_title">Manager your contacts and your own profile using our practical iContacts app!</string>
+    <string name="welcome2_title">Thank you for choosing iContacts. Click in \'Start\' and start using this amazing app!</string>
+    <string name="iniciar">Start</string>
+    <string name="contatos">Contacts</string>
+    <string name="perfil">Profile</string>
+    <string name="query_hint">Search for...</string>
+    <string name="editar">Edit</string>
+    <string name="ligar">Dial</string>
+    <string name="instagram">Instagram</string>
+    <string name="mail">Mail</string>
+    <string name="adicionar_novo_contato">Add New Contact</string>
+    <string name="campos_obrigatorios">*Required fields</string>
+    <string name="nome">Name*</string>
+    <string name="telefone">Phone*</string>
+    <string name="email">Mail*</string>
+    <string name="facebook">Facebook</string>
+    <string name="relacionamento">Relationship*</string>
+    <string name="confirmar">Confirm</string>
+    <string name="cancelar">Cancel</string>
+    <string name="editContacts">Edit Contact</string>
+    <string name="editProfile">Edit Profile</string>
+</resources>
